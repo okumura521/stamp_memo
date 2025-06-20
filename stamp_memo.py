@@ -1,4 +1,6 @@
 # グラフ描画ライブラリ（matplotlib）をインポート
+import matplotlib   
+matplotlib.use("TkAgg") 
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm  # 日本語フォント指定に使う
 from collections import Counter       # スタンプ別の件数を集計

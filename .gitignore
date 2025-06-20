@@ -1,0 +1,15 @@
+# Python関連
+__pycache__/
+*.pyc
+*.pyo
+
+# ビルド出力
+dist/
+build/
+*.spec
+
+# VS Code設定ファイル
+.vscode/
+
+# 環境ファイル
+.env
